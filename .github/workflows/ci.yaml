@@ -24,12 +24,12 @@ jobs:
         run: npm run lint
 
       - name: Run formatter
-        run: npm run prettier --write
+        run: npm run prettier -- --write
 
       - name: Run tests
         env:
           CI: true
-        run: npm run test
+        run: npm run test -- --coverage --watchAll=false
 
       - name: Build project
-        run: npm run build
+        run: npm run build:legacy
