@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/",
-    "prettier": "prettier -c ./src/"
+    "prettier": "prettier ."
   },
   "eslintConfig": {
     "extends": [
