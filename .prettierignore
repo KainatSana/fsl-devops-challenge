@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Terraform files
+terraform/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tf
+
+# Git
+.git/
+
+# Other
+*.log
+*.lock
+.DS_Store
