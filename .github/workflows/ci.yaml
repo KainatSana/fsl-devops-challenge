@@ -32,4 +32,4 @@ jobs:
         run: npm run test -- --coverage --watchAll=false
 
       - name: Build project
-        run: npm run build:legacy
+        run: npm run build
